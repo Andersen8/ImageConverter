@@ -1,0 +1,40 @@
+:root {
+    --bg-color: #262727;
+    --bg-header-color: #252554;
+    --main-color: #f0d377;
+    --text-color: #ff33e8;
+    --sub-color: #ff5957;
+    --sub-alt-color: #343231;
+    --border-default-opacity: #ebc6b9dd;
+    --border-default: #88c622;
+    --border-hover: #77c6b9;
+
+    --roundness: 2.5px;
+    --button-roundness: 7px;
+    --color-selection: #92bee0;
+    --hover-transition: 100ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+::-moz-selection {
+    background: var(--color-selection);
+}
+
+::selection {
+    background: var(--color-selection);
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--main-color);
+}

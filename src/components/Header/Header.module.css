@@ -1,0 +1,11 @@
+header {
+    background: var(--bg-header-color);
+    color: var(--text-color);
+    padding: 20px 50px;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, red, purple);
+    border-image-slice: 1;
+}
